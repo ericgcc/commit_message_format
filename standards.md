@@ -20,19 +20,22 @@ A complte description, rules and tips can be seen in [here][1].
 
 ####Applicable emoji and meaning
 
-
->* :art: when formatting or comments on code; no code change
->* :memo: when writing documentation
->* :muscle: when improving the format/structure of the code
->* :bug: when fixing a bug
->* :bulb: when adding new feature
->* :fire: when functions, methods or classes have been added or removed; method signatures or return types have changed
->* :ant: anything not covered by the above categories, e.g. rename or move files, add configuration files
->* :white_check_mark: when adding tests, refactoring tests; no production code change
->* :runner: when improving performance
->* :penguin: when fixing something on Linux
->* :apple: when fixing something on Mac OS
->* :checkered_flag: when fixing something on Windows
+>* style: when formatting or comments on code; no code change
+>* docs: when writing documentation
+>* code: when improving the format/structure of the code
+>* bug: when fixing a bug
+>* new: when adding new feature
+>* api: when functions, methods or classes have been added or removed; method signatures or return types have changed
+>* typo: when typos in words or minimal changes in comment sentences
+>* misc: anything not covered by the above categories, e.g. rename or move files, add configuration files
+>* test: when adding tests, refactoring tests; no production code change
+>* boost: when improving performance
+>* linux: when fixing something on Linux
+>* macos: when fixing something on Mac OS
+>* win: when fixing something on Windows
+>* and: when fixing something on Android
+>* ios: when fixing something on iOS
+>* winp: when fixing something on Windows Phone
 
 **NOTE:** The tags :penguin:, :apple: and  :checkered_flag: must be used just in combination with other labels to specify a particular change related to an O.S.
 
