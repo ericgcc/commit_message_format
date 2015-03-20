@@ -37,7 +37,7 @@ A complte description, rules and tips can be seen in [here][1].
 >* ios: when fixing something on iOS
 >* winp: when fixing something on Windows Phone
 
-**NOTE:** The tags :penguin:, :apple: and  :checkered_flag: must be used just in combination with other labels to specify a particular change related to an O.S.
+**NOTE:** The tags linux:, macos: , win:, ios: and winp: must be used just in combination with other labels to specify a particular change related to an O.S.
 
 ##REFERENCES
 
