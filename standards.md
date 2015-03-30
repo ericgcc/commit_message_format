@@ -27,20 +27,20 @@ A complete description, rules and tips can be seen in [here][1].
 >* [new] when adding new feature
 >* [api] when functions, methods or classes have been added or removed; method signatures or return types have changed
 >* [typo] when typos in words or minimal changes in comment sentences
->* [misc] anything not covered by the above categories, e.g. rename or move files, add configuration files
+>* [misc] anything not covered by the above categories, e.g. rename or move files, add configuration files, add dataset
 >* [test] when adding tests, refactoring tests; no production code change
 >* [boost] when improving performance
->* [use] when libraries, frameworks, packages  or modules are added
+>* [pkg] when libraries, frameworks, packages  or modules are added
 
 ####Subtags
->* [linux] when fixing something on Linux
->* [macos] when fixing something on Mac OS
->* [win] when fixing something on Windows
->* [and] when fixing something on Android
->* [ios] when fixing something on iOS
->* [winp] when fixing something on Windows Phone
+>* *linux* when fixing something on Linux
+>* *macos* when fixing something on Mac OS
+>* *win* when fixing something on Windows
+>* *and* when fixing something on Android
+>* *ios* when fixing something on iOS
+>* *winp* when fixing something on Windows Phone
 
-**NOTE:** The tags [linux], [macos],[and], [win], [ios] and [winp] must be used just in combination with other tags to specify a particular change related to an O.S.
+**NOTE:** The subtags *linux*, *macos*,*and*, *win*, *ios* and *winp* must be used just in combination with other tags to specify a particular change related to an O.S.
 Example:
   [api|macos] Subject description
   
