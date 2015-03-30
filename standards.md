@@ -41,8 +41,8 @@ A complete description, rules and tips can be seen in [here][1].
 >* *winp* when fixing something on Windows Phone
 
 **NOTE:** The subtags *linux*, *macos*,*and*, *win*, *ios* and *winp* must be used just in combination with other tags to specify a particular change related to an O.S.
-Example:
-  [api|macos] Subject description
+>Example:
+>  [api|macos] Subject description
   
 
 
@@ -55,6 +55,6 @@ Example:
 
 [1]: http://chris.beams.io/posts/git-commit/#why-not-how
 -------------
-This document was last modified on : March. 29th, 2015.
+This document was last modified on : March. 30th, 2015.
 
 
