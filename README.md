@@ -1,6 +1,8 @@
-Standards (version 0.1.0)
+Commit message format (version 1.0.0)
 ===================
 
+##What is it?
+This is a proposal of tags to be used in commit messages. The goal is to identify easily the different types of changes in the project's repo.
 
 ##Commit Message rules
 
@@ -19,6 +21,7 @@ Standards (version 0.1.0)
 A complete description, rules and tips can be seen in [here][1].
 
 ####Tags and meaning
+**NOTE:** The first commit does not have a label, and the message always is "**Initial commit**" as convention.
 
 >* [style] when formatting or comments on code; no code change
 >* [docs] when writing documentation
@@ -55,6 +58,4 @@ A complete description, rules and tips can be seen in [here][1].
 
 [1]: http://chris.beams.io/posts/git-commit/#why-not-how
 -------------
-This document was last modified on : March. 30th, 2015.
-
-
+This document was last modified on : April. 6th, 2015.
