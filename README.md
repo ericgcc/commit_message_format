@@ -16,7 +16,7 @@ This is a proposal of tags to be used in commit messages. The goal is to identif
 
 ####Message body
 >7. Wrap the body at 72 characters
->8. Use the body to explain the problems, limitations, and why is it necessary?. Then to explain how was addressed the issue and the effects.
+>8. Use the body to explain the problems, limitations, and why it is necessary. Then to explain how was addressed the issue and the effects.
 
 A complete description, rules and tips can be seen in [here][1].
 
@@ -36,6 +36,14 @@ A complete description, rules and tips can be seen in [here][1].
 >* [pkg] when libraries, frameworks, packages  or modules are added
 
 ####Subtags
+Those subtags are used in order to provide the action that the commite does
+>* *add* when something new has been added
+>* *modify* when changes in files have been made
+>* *move* when files are moved between directories
+>* *remove* when files or directories are deleted
+>* *update* when a package's version is changed
+
+When fixing something on:
 >* *linux* when fixing something on Linux
 >* *macos* when fixing something on Mac OS
 >* *win* when fixing something on Windows
@@ -43,7 +51,7 @@ A complete description, rules and tips can be seen in [here][1].
 >* *ios* when fixing something on iOS
 >* *winp* when fixing something on Windows Phone
 
-**NOTE:** The subtags *linux*, *macos*,*and*, *win*, *ios* and *winp* must be used just in combination with other tags to specify a particular change related to an O.S.
+Those subtags must be used just in combination with other tags to specify a particular change related to an O.S.
 >Example:
 >  [api|macos] Subject description
   
