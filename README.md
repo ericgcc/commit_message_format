@@ -1,4 +1,4 @@
-Commit message format (version 1.0.0)
+Commit message format (version 1.1.0)
 ===================
 
 ##What is it?
@@ -44,12 +44,12 @@ Those subtags are used in order to provide the action that the commite does
 >* *update* when a package's version is changed
 
 When fixing something on:
->* *linux* when fixing something on Linux
->* *macos* when fixing something on Mac OS
->* *win* when fixing something on Windows
->* *and* when fixing something on Android
->* *ios* when fixing something on iOS
->* *winp* when fixing something on Windows Phone
+>* *linux* 
+>* *macos* 
+>* *win* 
+>* *and* (*Android*)
+>* *ios* 
+>* *winp* (*Windows Phone*)
 
 Those subtags must be used just in combination with other tags to specify a particular change related to an O.S.
 >Example:
