@@ -27,7 +27,7 @@ A complete description, rules and tips can be seen in [here][1].
 >* [docs] when writing documentation
 >* [code] when improving the format/structure of the code
 >* [bug] when fixing a bug
->* [new] when adding new feature
+>* [new] when adding new feature[^new]
 >* [api] when functions, methods or classes have been added or removed; method signatures or return types have changed
 >* [typo] when typos in words or minimal changes in comment sentences
 >* [misc] anything not covered by the above categories, e.g. rename or move files, add configuration files, add dataset
@@ -41,21 +41,24 @@ Those subtags are used in order to provide the action that the commite does
 >* *modify* when changes in files have been made
 >* *move* when files are moved between directories
 >* *remove* when files or directories are deleted
->* *update* when a package's version is changed
+>* *update* when a package's version is changed[^upd]
 
 When fixing something on:
->* *linux* 
->* *macos* 
->* *win* 
+>* *linux*
+>* *macos*
+>* *win*
 >* *and* (*Android*)
->* *ios* 
+>* *ios*
 >* *winp* (*Windows Phone*)
 
 Those subtags must be used just in combination with other tags to specify a particular change related to an O.S.
 >Example:
 >  [api|macos] Subject description
-  
 
+####Rules
+[^new]: The tag [new] is only used when you are doing a merge between the master and other feature-branch It is used to describe a feature.
+
+[^upd]: The tag [update] must be used just when a package is updates.
 
 ##REFERENCES
 
