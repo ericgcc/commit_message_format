@@ -1,4 +1,4 @@
-Commit message format (version 1.1.0)
+Commit message format (version 1.2.0)
 ===================
 
 ##What is it?
