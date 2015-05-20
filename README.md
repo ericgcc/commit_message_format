@@ -1,4 +1,4 @@
-Commit message format (version 1.2.0)
+Commit message format (version 1.3.0)
 ===================
 
 ##What is it?
@@ -20,7 +20,7 @@ This is a proposal of tags to be used in commit messages. The goal is to identif
 
 A complete description, rules and tips can be seen in [here][1].
 
-####Tags and meaning
+####Tags and meaning for source code
 **NOTE:** The first commit does not have a label, and the message always is "**Initial commit**" as convention.
 
 >* [style] when formatting or comments on code; no code change
@@ -34,6 +34,21 @@ A complete description, rules and tips can be seen in [here][1].
 >* [test] when adding tests, refactoring tests; no production code change
 >* [boost] when improving performance
 >* [pkg] when libraries, frameworks, packages  or modules are added
+
+####Tags and meaning for database
+>* [pk] primary key
+>* [fk] foreign key
+>* [ak] alternate key
+>* [chk] check restriction
+>* [idx] index
+>* [seq] sequence
+>* [fk] foreign key
+>* [vw] view
+>* [mv] materialize view
+>* [dt] data type
+>* [trg] trigger
+>* [tbl] table
+>* [col] column
 
 ####Subtags
 Those subtags are used in order to provide the action that the commite does
@@ -58,7 +73,7 @@ Those subtags must be used just in combination with other tags to specify a part
 ####Rules
 The tag [new] is only used when you are doing a merge between the master and other feature-branch It is used to describe a feature.
 
-The tag [update] must be used just when a package is updates.
+The tag [update] must be used just when a package is updates ([pkg|update]).
 
 ##REFERENCES
 
