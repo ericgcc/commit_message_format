@@ -1,4 +1,4 @@
-Commit message format (version 1.3.0)
+Commit message format (version 1.4.0)
 ===================
 
 ##What is it?
@@ -26,7 +26,6 @@ A complete description, rules and tips can be seen in [here][1].
 >* [style] when formatting or comments on code; no code change
 >* [docs] when writing documentation
 >* [code] when improving the format/structure of the code
->* [bug] when fixing a bug
 >* [new] when adding new feature (see *Rules* section)
 >* [api] when functions, methods or classes have been added or removed; method signatures or return types have changed
 >* [typo] when typos in words or minimal changes in comment sentences
@@ -34,6 +33,7 @@ A complete description, rules and tips can be seen in [here][1].
 >* [test] when adding tests, refactoring tests; no production code change
 >* [boost] when improving performance
 >* [pkg] when libraries, frameworks, packages  or modules are added
+>* [fix] when fixing a bug (see *Rules* section)
 
 ####Tags and meaning for database
 >* [pk] primary key
@@ -57,6 +57,7 @@ Those subtags are used in order to provide the action that the commite does
 >* *move* when files are moved between directories
 >* *remove* when files or directories are deleted
 >* *update* when a package's version is changed (see *Rules* section)
+>* *bug* when a bug is found (see *Rules* section)
 
 When fixing something on:
 >* *linux*
@@ -71,9 +72,16 @@ Those subtags must be used just in combination with other tags to specify a part
 >  [api|macos] Subject description
 
 ####Rules
-The tag [new] is only used when you are doing a merge between the master and other feature-branch It is used to describe a feature.
+1. The tag [new] is only used when you are doing a merge between the master and other feature-branch It is used to describe a feature.
 
-The tag [update] must be used just when a package is updates ([pkg|update]).
+2. The tag [update] must be used just when a package is updates ([pkg|update]).
+
+3. Sometimes when you are doing modifications on your source code, it is likely to find a bug and you are not interested in remove the changes to fix it, do the commit with the bug fixed, and then redo your modifications. In this case, two things can be reported:
+
+>+ [api|modify+bug] when the code was modified, and a bug was found but NOT fixed
+>+ [api|modify+fix] when the code was modified, and a bug was found and WAS fixed
+
+
 
 ##REFERENCES
 
