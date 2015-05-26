@@ -1,4 +1,4 @@
-Commit message format (version 1.4.0)
+Commit message format (version 1.5.0)
 ===================
 
 ##What is it?
@@ -53,11 +53,13 @@ A complete description, rules and tips can be seen in [here][1].
 ####Subtags
 Those subtags are used in order to provide the action that the commite does
 >* *add* when something new has been added
+>* *bug* when a bug is found (see *Rules* section)
 >* *modify* when changes in files have been made
 >* *move* when files are moved between directories
 >* *remove* when files or directories are deleted
->* *update* when a package's version is changed (see *Rules* section)
->* *bug* when a bug is found (see *Rules* section)
+>* *rename* when files or directories are renamed
+>* *update* when a package's version is changed, module is added, removed or modified (see *Rules* section)
+
 
 When fixing something on:
 >* *linux*
