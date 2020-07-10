@@ -8,7 +8,7 @@ This is a proposal of labels (expressions enclosed in square brackets) to be use
 
 Common layout for a commit message
 ```
-[tag>subtag] subject description
+[label>sub-label] subject description
 
 body: used to explain the what and why of a commit, not the how. Wrap the body at 72 characters in each line.
 
