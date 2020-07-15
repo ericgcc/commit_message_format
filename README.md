@@ -28,14 +28,14 @@ A complete description, rules and tips can be seen in [1].
 #### Main tags and meaning for source code
 **NOTE:** The first commit does not have a label, and the message always is "**Initial commit**" as convention.
 
->* **[core]** when functions, methods or classes have been added, modified or removed; method signatures or return types have changed
->* **[style]** when improving the format/structure of the code, without modifying the previous functionality
->* **[main]** when dealing with a file that is used as view, notebook or main file
->* **[new]** when adding a new feature (see *Rules* section)
->* **[pkg]** when libraries, frameworks, packages  or modules are added
->* **[docs]** when writing documentation, formatting or comments on code; no code change
->* **[test]** when adding tests, refactoring tests; no production code change
->* **[misc]** anything not covered by the above categories, e.g. rename or move files, add configuration files, add dataset
+>* **[core]:** when functions, methods or classes have been added, modified or removed; method signatures or return types have changed
+>* **[style]:** when improving the format/structure of the code, without modifying the previous functionality
+>* **[main]:** when dealing with a file that is used as view, notebook or main file
+>* **[new]:** when adding a new feature (see *Rules* section)
+>* **[pkg]:** when libraries, frameworks, packages  or modules are added
+>* **[docs]:** when writing documentation, formatting or comments on code; no code change
+>* **[test]:** when adding tests, refactoring tests; no production code change
+>* **[misc]:** anything not covered by the above categories, e.g. rename or move files, add configuration files, add dataset
 
 #### Sub-labels
 Those sub-labels are used in order to provide the action that the commit does
@@ -43,14 +43,14 @@ Those sub-labels are used in order to provide the action that the commit does
 >Example:
 >  [core>add] Subject description
 
->* **add** when something new has been added
->* **modify** when changes in files have been made
->* **boost** when improving performance
->* **fix** when fixing a bug (see *Rules* section)
->* **move** when files are moved between directories
->* **remove** when files or directories are deleted
->* **rename** when files or directories are renamed
->* **update** when a package's version is changed or updated(see *Rules* section)
+>* **add:** when something new has been added
+>* **change:** when changes in files have been made
+>* **boost:** when improving performance
+>* **fix:** when fixing a bug (see *Rules* section)
+>* **move:** when files are moved between directories
+>* **remove:** when files or directories are deleted
+>* **rename:** when files or directories are renamed
+>* **update:** when a package's version is changed or updated(see *Rules* section)
 
 When fixing something on:
 >* **and** (*Android*)
